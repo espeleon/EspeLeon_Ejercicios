@@ -1,0 +1,11 @@
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\bin\Debug\netcoreapp3.0\Fase2.exe
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\bin\Debug\netcoreapp3.0\Fase2.deps.json
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\bin\Debug\netcoreapp3.0\Fase2.runtimeconfig.json
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\bin\Debug\netcoreapp3.0\Fase2.runtimeconfig.dev.json
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\bin\Debug\netcoreapp3.0\Fase2.dll
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\bin\Debug\netcoreapp3.0\Fase2.pdb
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\obj\Debug\netcoreapp3.0\Fase2.csprojAssemblyReference.cache
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\obj\Debug\netcoreapp3.0\Fase2.AssemblyInfoInputs.cache
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\obj\Debug\netcoreapp3.0\Fase2.AssemblyInfo.cs
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\obj\Debug\netcoreapp3.0\Fase2.dll
+D:\EspeLeon_Exercises\Variables_Constantes_Bucle\Fase2\Fase2\obj\Debug\netcoreapp3.0\Fase2.pdb
