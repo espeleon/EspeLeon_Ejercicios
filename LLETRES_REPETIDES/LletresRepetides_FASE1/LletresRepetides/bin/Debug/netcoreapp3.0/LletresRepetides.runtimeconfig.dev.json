@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\capdedrons\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\capdedrons\\.nuget\\packages"
+    ]
+  }
+}

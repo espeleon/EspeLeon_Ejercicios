@@ -1,0 +1,11 @@
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\bin\Debug\netcoreapp3.0\LletresRepetides_FASE3.exe
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\bin\Debug\netcoreapp3.0\LletresRepetides_FASE3.deps.json
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\bin\Debug\netcoreapp3.0\LletresRepetides_FASE3.runtimeconfig.json
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\bin\Debug\netcoreapp3.0\LletresRepetides_FASE3.runtimeconfig.dev.json
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\bin\Debug\netcoreapp3.0\LletresRepetides_FASE3.dll
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\bin\Debug\netcoreapp3.0\LletresRepetides_FASE3.pdb
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\obj\Debug\netcoreapp3.0\LletresRepetides_FASE3.csprojAssemblyReference.cache
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\obj\Debug\netcoreapp3.0\LletresRepetides_FASE3.AssemblyInfoInputs.cache
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\obj\Debug\netcoreapp3.0\LletresRepetides_FASE3.AssemblyInfo.cs
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\obj\Debug\netcoreapp3.0\LletresRepetides_FASE3.dll
+C:\Users\capdedrons\Desktop\GitHub\EspeLeon_Practicas_Codigo\LletresRepetides_FASE3\LletresRepetides_FASE3\obj\Debug\netcoreapp3.0\LletresRepetides_FASE3.pdb
