@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Exercicis Lletres Repetides Fase 3</h2>
+
+<!--  FASE 3
+Emmagatzemar en un Dictionary tant les lletres de la llista com el nombre de vegades que apareixen
+
+
+-->
+
+<p>This is my name: </p>
+
+<p id="demo"></p>
+
+<script>
+
+var text;
+
+var aNameList = ["E", "s" ,"p", "e", "r", "a", "n", "z", "a"];
+
+var dDictionary= new Map();
+var letra;
+
+text ="";
+    for (let i= 0; i < aNameList.length; i++)
+    {
+        valor = aNameList[i]
+       dDictionary.set(letra, valor);
+
+    }
+
+    for ( var [key, value] of dDictionary)
+   {
+        if (dDictionary.get(letra) == dDictionary.lletra.includes(dDictionary.lletra) )
+        {
+           dDictionary.veces = numVeces+1;
+        }
+        else
+        {
+            dDictionary.veces = 1;
+        }
+
+        text +=  (dDictionary.lletra[i] + " .... aparece .... "+ dDictionary.veces[i]+ " veces") +"<br/>";
+
+    }
+
+
+document.getElementById("demo").innerHTML = text;
+
+
+</script>
+
+</body>
+</html>

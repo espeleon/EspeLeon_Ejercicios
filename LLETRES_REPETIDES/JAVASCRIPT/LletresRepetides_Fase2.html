@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Exercicis Lletres Repetides Fase 2</h2>
+
+<!--  FASE 2
+Canvia el array per una llista (List<char>)
+Al bucle, si la lletra és una vocal imprimeix a la consola: ‘VOCAL’. Sinó, imprimeix: ‘CONSONTANT’.
+Si trobes un numero, mostra per pantalla: ‘Els noms de persones no contenen números!’.
+
+-->
+
+<p>This is my name: </p>
+
+<p id="demo"></p>
+
+<script>
+
+var nLength, text, i;
+
+var aNameList = ["E", 2 ,"p", "e", "r", "a", "n", "z", "a"];
+
+nLength = aNameList.length;
+
+text ="";
+    for (i= 0; i < nLength; i++)
+    {
+ 
+        if (isNaN(aNameList[i]) )
+        {
+            texto = aNameList[i].toLowerCase();
+
+            switch (texto)
+            {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                text +=  (aNameList[i] + " .... És una vocal ") +"<br/>";
+                break;
+                default:
+                text +=  (aNameList[i] + " .... És una consonant ") +"<br/>";
+                break;
+                
+            }
+        
+        }
+        else
+        {
+
+            text +=  (aNameList[i] + " .... Els noms de les persones no contenen números ") +"<br/>";
+            //alert ("Els noms de persones no contenen números");
+        }
+      
+
+       
+    }
+    
+
+document.getElementById("demo").innerHTML = text;
+
+
+
+      
+ 
+</script>
+
+</body>
+</html>
