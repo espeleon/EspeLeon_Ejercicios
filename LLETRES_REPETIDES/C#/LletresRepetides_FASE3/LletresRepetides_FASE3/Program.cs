@@ -82,4 +82,29 @@ namespace LletresRepetides_FASE3
             }
         }
     }
+
+    class Example
+    {
+        public Example()
+        {
+            var dict = new Dictionary<char, int>();
+
+            var characters = "hsdfjashdflhsdfkhasdlfhaskfhkas".ToCharArray();
+
+            for (var i = 0; i < characters.Length; i++)
+            {
+                var currentCharacter = characters[i];
+
+                if (!dict.ContainsKey(currentCharacter))
+                    dict.Add(currentCharacter, 1);
+                else
+                    dict[currentCharacter] += 1;
+            }
+
+            foreach(var item in dict)
+            {
+                Console.WriteLine($"Letra: {item.Key} Count:{item.Value}");
+            }
+        }
+    }
 }

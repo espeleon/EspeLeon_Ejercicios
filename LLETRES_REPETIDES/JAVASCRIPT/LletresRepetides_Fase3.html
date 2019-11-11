@@ -10,7 +10,7 @@ Emmagatzemar en un Dictionary tant les lletres de la llista com el nombre de veg
 
 -->
 
-<p>This is my name: </p>
+
 
 <p id="demo"></p>
 
@@ -23,33 +23,34 @@ var aNameList = ["E", "s" ,"p", "e", "r", "a", "n", "z", "a"];
 var dDictionary= new Map();
 var letra;
 
+document.write("<p>" +aNameList+ "</p>");
+
 text ="";
-    for (let i= 0; i < aNameList.length; i++)
+for (let i= 0; i < aNameList.length; i++)
+{
+    let letra = aNameList[i]
+    
+    if (!dDictionary.has(letra))
     {
-        valor = aNameList[i]
-       dDictionary.set(letra, valor);
-
+        dDictionary.set (letra, 1);
     }
-
-    for ( var [key, value] of dDictionary)
-   {
-        if (dDictionary.get(letra) == dDictionary.lletra.includes(dDictionary.lletra) )
-        {
-           dDictionary.veces = numVeces+1;
-        }
-        else
-        {
-            dDictionary.veces = 1;
-        }
-
-        text +=  (dDictionary.lletra[i] + " .... aparece .... "+ dDictionary.veces[i]+ " veces") +"<br/>";
-
+    else
+    {
+        dDictionary.set( letra, dDictionary.get(letra)+1);
     }
+}
 
+dDictionary.forEach((value, key) =>
+{
+    if (value != undefined)
+    {
+        console.log(key + ": " +value);
+        document.write("<p>" + key + ": aparece ...." +value + " veces </p>");
+    }
+});
+    
 
-document.getElementById("demo").innerHTML = text;
-
-
+   
 </script>
 
 </body>
