@@ -8,20 +8,25 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\capdedrons\\.nuget\\packages\\": {}
+    "C:\\Users\\formacio\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\capdedrons\\Desktop\\GitHub\\EspeLeon_Practicas_Codigo\\LletresRepetides_FASE4\\LletresRepetides_FASE4\\LletresRepetides_FASE4.csproj",
+      "projectUniqueName": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\LLETRES_REPETIDES\\C#\\LletresRepetides_FASE4\\LletresRepetides_FASE4\\LletresRepetides_FASE4.csproj",
       "projectName": "LletresRepetides_FASE4",
-      "projectPath": "C:\\Users\\capdedrons\\Desktop\\GitHub\\EspeLeon_Practicas_Codigo\\LletresRepetides_FASE4\\LletresRepetides_FASE4\\LletresRepetides_FASE4.csproj",
-      "packagesPath": "C:\\Users\\capdedrons\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\capdedrons\\Desktop\\GitHub\\EspeLeon_Practicas_Codigo\\LletresRepetides_FASE4\\LletresRepetides_FASE4\\obj\\",
+      "projectPath": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\LLETRES_REPETIDES\\C#\\LletresRepetides_FASE4\\LletresRepetides_FASE4\\LletresRepetides_FASE4.csproj",
+      "packagesPath": "C:\\Users\\formacio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\LLETRES_REPETIDES\\C#\\LletresRepetides_FASE4\\LletresRepetides_FASE4\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\capdedrons\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\formacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

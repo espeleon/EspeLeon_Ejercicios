@@ -16,8 +16,6 @@ Emmagatzemar en un Dictionary tant les lletres de la llista com el nombre de veg
 
 <script>
 
-var text;
-
 var aNameList = ["E", "s" ,"p", "e", "r", "a", "n", "z", "a"];
 
 var dDictionary= new Map();
@@ -25,18 +23,19 @@ var letra;
 
 document.write("<p>" +aNameList+ "</p>");
 
-text ="";
+
 for (let i= 0; i < aNameList.length; i++)
 {
-    let letra = aNameList[i]
+    let letra = aNameList[i].toLowerCase(); // convert all to Lower Case
     
+    // start adding elements to the Map
     if (!dDictionary.has(letra))
     {
-        dDictionary.set (letra, 1);
+        dDictionary.set (letra, 1); // if letter not exist add all
     }
     else
     {
-        dDictionary.set( letra, dDictionary.get(letra)+1);
+        dDictionary.set( letra, dDictionary.get(letra)+1);  // if exist add +1 to the value 
     }
 }
 
@@ -45,7 +44,7 @@ dDictionary.forEach((value, key) =>
     if (value != undefined)
     {
         console.log(key + ": " +value);
-        document.write("<p>" + key + ": aparece ...." +value + " veces </p>");
+        document.write("<p> La letra: " + key + ": aparece ...." +value + " veces </p>");
     }
 });
     

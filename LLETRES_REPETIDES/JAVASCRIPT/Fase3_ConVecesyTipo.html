@@ -18,34 +18,31 @@ nameList.push('z');
 nameList.push('a');
 nameList.push(2);
 
-for (var i = 0; i < nameList.length; i++)
-{
-
-}
-
-
 
 for (var i = 0; i < nameList.length; i++)
 {
     
     var currentCharacter = nameList[i];   
 
-   // if (typeof currentCharacter === "string") // if is letter
+    if (typeof currentCharacter === "string") // convert all to Upper Case if is a string
     { 
+        currentCharacter= currentCharacter.toUpperCase();
+    }
 
-        // get de value of the element by the key (position), get the position
-        if (!dict.has(currentCharacter))
-        {
-            dict.set(currentCharacter, 1);       
-        }
-                
-        else
-        {
-            dict.set(currentCharacter, dict.get(currentCharacter) + 1);        
-        }
-    //}
-                                                        
-          
+
+    // start adding elements to the Map
+    if (!dict.has(currentCharacter))
+    {
+        dict.set(currentCharacter, 1);       // if letter not exist add all
+    }
+            
+    else
+    {
+        dict.set(currentCharacter, dict.get(currentCharacter) + 1);        // if exist add +1 to the value 
+    }
+                                                          
+    if (typeof currentCharacter === "string") // if is letter
+    {  
         switch (currentCharacter)
         {
             // case is vocal
@@ -56,26 +53,21 @@ for (var i = 0; i < nameList.length; i++)
             case 'U':
                 console.log("Lletra: " + currentCharacter + " es VOCAL y aparece: " + dict.get(currentCharacter)+ " veces");
                 break;
-            
-            case !isNaN(currentCharacter):
-               console.log( currentCharacter + " Esto es un número !!! y los nombres no contienen números");
-               break
-
             // case is consonant
             default:
 
                 console.log("Lletra: " + currentCharacter + " es CONSONANTE y aparece: " + dict.get(currentCharacter)+ " veces");
                 break;
         }
+    }
     
-   // else
-   // {
-  //      console.log( " Esto "+currentCharacter + " es un número !!! y los nombres no contienen números");
-    //}
+    else
+    {
+      console.log( "Esto "+currentCharacter + " es un número !!! y los nombres no contienen números");
+    }
  
    
-}
-
+    }
 
 
 </script>

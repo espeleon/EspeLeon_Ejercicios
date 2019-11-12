@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Exercicis Lletres Repetides Fase 4</h2>
+
+<!--  FASE 4
+Crea una altra llista amb el teu cognom on cada posició correspongui a una lletra.
+
+Fusiona les dues llistes en una sola. A més, afegeix una posició amb un espai buit entre la primera i la segona. És a dir, partim de la llista name i surname i al acabar l’execució només tindrem una que es dirà fullName.
+
+	FullName: [‘N’, ‘A’, ‘M’, ‘E’, ‘ ‘, ‘S’, ‘U’, ‘R‘, ‘N’, ‘A’, ‘M’, ‘E’]
+
+-->
+
+<p>This is my name: </p>
+
+<p id="demo"></p>
+
+<script>
+
+var name, surname, espacio, texto;
+
+name = ["E", "s" ,"p", "e", "r", "a", "n", "z", "a"];
+surname= ["L", "e", "o", "n"];
+espacio= ", ,";
+
+var nombreEntero= name.concat(espacio, surname);
+      
+document.write(nombreEntero);
+</script>
+
+</body>
+</html>

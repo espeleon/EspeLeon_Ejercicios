@@ -1,0 +1,11 @@
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\bin\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.exe
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\bin\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.deps.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\bin\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.runtimeconfig.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\bin\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.runtimeconfig.dev.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\bin\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\bin\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.pdb
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\obj\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.csprojAssemblyReference.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\obj\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.AssemblyInfoInputs.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\obj\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.AssemblyInfo.cs
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\obj\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_Letra_Veces_Tipo\Fase3_Letra_Veces_Tipo\obj\Debug\netcoreapp3.0\Fase3_Letra_Veces_Tipo.pdb

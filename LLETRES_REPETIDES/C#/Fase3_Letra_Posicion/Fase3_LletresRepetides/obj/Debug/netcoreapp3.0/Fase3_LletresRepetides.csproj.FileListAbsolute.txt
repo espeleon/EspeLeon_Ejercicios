@@ -1,0 +1,11 @@
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\bin\Debug\netcoreapp3.0\Fase3_LletresRepetides.exe
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\bin\Debug\netcoreapp3.0\Fase3_LletresRepetides.deps.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\bin\Debug\netcoreapp3.0\Fase3_LletresRepetides.runtimeconfig.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\bin\Debug\netcoreapp3.0\Fase3_LletresRepetides.runtimeconfig.dev.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\bin\Debug\netcoreapp3.0\Fase3_LletresRepetides.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\bin\Debug\netcoreapp3.0\Fase3_LletresRepetides.pdb
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\obj\Debug\netcoreapp3.0\Fase3_LletresRepetides.csprojAssemblyReference.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\obj\Debug\netcoreapp3.0\Fase3_LletresRepetides.AssemblyInfoInputs.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\obj\Debug\netcoreapp3.0\Fase3_LletresRepetides.AssemblyInfo.cs
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\obj\Debug\netcoreapp3.0\Fase3_LletresRepetides.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Fase3_LletresRepetides\Fase3_LletresRepetides\obj\Debug\netcoreapp3.0\Fase3_LletresRepetides.pdb
