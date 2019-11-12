@@ -1,0 +1,10 @@
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\bin\Debug\netcoreapp3.0\Ciutats_Fase2.exe
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\bin\Debug\netcoreapp3.0\Ciutats_Fase2.deps.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\bin\Debug\netcoreapp3.0\Ciutats_Fase2.runtimeconfig.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\bin\Debug\netcoreapp3.0\Ciutats_Fase2.runtimeconfig.dev.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\bin\Debug\netcoreapp3.0\Ciutats_Fase2.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\bin\Debug\netcoreapp3.0\Ciutats_Fase2.pdb
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\obj\Debug\netcoreapp3.0\Ciutats_Fase2.AssemblyInfoInputs.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\obj\Debug\netcoreapp3.0\Ciutats_Fase2.AssemblyInfo.cs
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\obj\Debug\netcoreapp3.0\Ciutats_Fase2.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase2\Ciutats_Fase2\obj\Debug\netcoreapp3.0\Ciutats_Fase2.pdb

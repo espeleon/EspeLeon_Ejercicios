@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciutats_Fase4", "Ciutats_Fase4\Ciutats_Fase4.csproj", "{D1A3997C-F91F-4509-90F4-D19BAF22FAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1A3997C-F91F-4509-90F4-D19BAF22FAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3997C-F91F-4509-90F4-D19BAF22FAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3997C-F91F-4509-90F4-D19BAF22FAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3997C-F91F-4509-90F4-D19BAF22FAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8708F459-63CE-4A65-B6B2-809AD444F478}
+	EndGlobalSection
+EndGlobal

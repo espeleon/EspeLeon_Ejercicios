@@ -1,0 +1,10 @@
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\bin\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.exe
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\bin\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.deps.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\bin\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.runtimeconfig.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\bin\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.runtimeconfig.dev.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\bin\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\bin\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.pdb
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\obj\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.AssemblyInfoInputs.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\obj\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.AssemblyInfo.cs
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\obj\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\LLETRES_REPETIDES\C#\Ciutats_Fase1_Bucle\Ciutats_Fase1_Bucle\obj\Debug\netcoreapp3.0\Ciutats_Fase1_Bucle.pdb
