@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Exercici Cituat Fase 2</h2>
+
+<!--  /*
+             /*
+            FASE 2 (2 punts)
+            • Un cop tenim els noms de les ciutats guardats en variables haurem de pasar l’informacio 
+            a un array (arrayCiutats). (1 punt)
+            • Quan tinguem l’array ple, haurem de mostrar per consola el nom de les ciutats ordenadas
+            per ordre alfabetic. (1 punt) 
+            
+            */
+
+-->
+
+<p>Like the song say: Summer in the city ...... </p>
+
+<p id="demo"></p>
+
+    <script>
+
+        // declare var
+        var sCity1;
+        var sCity2;
+        var sCity3;
+        var sCity4;
+        var sCity5;
+        var sCity6;
+
+        //ask for the cities
+        sCity1= prompt("Introduce la primera ciudad"); 
+        sCity2= prompt("Introduce la segunda ciudad");
+        sCity3= prompt("Introduce la tercera ciudad");
+        sCity4= prompt("Introduce la cuarta ciudad");
+        sCity5= prompt("Introduce la quinta ciudad");
+        sCity6= prompt("Introduce la sexta ciudad");
+          
+        // convert to a string array and fill it
+        var arrayCiutats = new Array();
+        arrayCiutats.push(sCity1);
+        arrayCiutats.push(sCity2);
+        arrayCiutats.push(sCity3);
+        arrayCiutats.push(sCity4);
+        arrayCiutats.push(sCity5);
+        arrayCiutats.push(sCity6);
+
+        document.write("<p>Las ciudades ordenadas alfabéticamente son las siguientes: </p>");
+
+        arrayCiutats.sort(); // sort the array
+
+        // traverse the array and show the results 
+        arrayCiutats.forEach((item) =>
+        {
+            if (item != undefined)
+            {
+                document.write(item + ", ");
+            }
+           
+        });
+   
+       
+    </script>
+
+</body>
+</html>

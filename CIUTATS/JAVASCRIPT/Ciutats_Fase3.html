@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Exercici Cituat Fase 2</h2>
+
+<!--  /*
+             /*
+            FASE 3 (3 punts)
+            • Cambieu les vocals “a” dels noms de les ciutats per el numero 4 i guardeu els noms modificats
+              en un nou array(ArrayCiutatsModificades). (2 punts)
+            • Mostreu per consola l’array modificat i ordenat per ordre alfabetic. (1 punt)
+            
+            */
+
+-->
+
+<p>Like the song say: Summer in the city ...... </p>
+
+<p id="demo"></p>
+
+    <script>
+
+        // declare var
+        var sCity1;
+        var sCity2;
+        var sCity3;
+        var sCity4;
+        var sCity5;
+        var sCity6;
+
+        //ask for the cities
+        sCity1= prompt("Introduce la primera ciudad"); 
+        sCity2= prompt("Introduce la segunda ciudad");
+        sCity3= prompt("Introduce la tercera ciudad");
+        sCity4= prompt("Introduce la cuarta ciudad");
+        sCity5= prompt("Introduce la quinta ciudad");
+        sCity6= prompt("Introduce la sexta ciudad");
+          
+        // convert to a string array and fill it
+        var ArrayCiutats = new Array();
+        ArrayCiutats.push(sCity1);
+        ArrayCiutats.push(sCity2);
+        ArrayCiutats.push(sCity3);
+        ArrayCiutats.push(sCity4);
+        ArrayCiutats.push(sCity5);
+        ArrayCiutats.push(sCity6);
+
+        // create the final array
+        var ArrayCiutatsModificades = new Array();
+
+        document.write("<p>El array final nos queda así: </p>");
+
+        ArrayCiutats= ArrayCiutats.sort(); // sort the array
+                
+        // traverse the array and replace
+
+        for (let i=0; i<ArrayCiutats.length; i++)
+        {            
+            ArrayCiutatsModificades.push(ArrayCiutats[i].replace(/a/gi, "4"));
+            document.write(ArrayCiutatsModificades[i] + ", ");
+
+        }
+       
+    </script>
+
+</body>
+</html>

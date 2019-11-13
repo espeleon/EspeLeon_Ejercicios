@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Exercici Cituat Fase 2</h2>
+
+<!--  /*
+             /*
+            FASE 4 (3 punts)
+            • Creeu un nou array per cada una de les ciutats que tenim. La mida dels nous arrays sera 
+            la llargada de cada string ( string nomCiutat.Length). (0,5 punts)
+            • Ompliu els nous arrays lletra per lletra.(2 punts)
+            • Mostreu per consola els nous arrays amb els noms invertits (Ex: Barcelona - anolecraB). (0,5 punts)
+            
+            */
+
+-->
+
+<p>Like the song say: Summer in the city ...... </p>
+
+<p id="demo"></p>
+
+    <script>
+
+        // declare var
+        var sCity1;
+        var sCity2;
+        var sCity3;
+        var sCity4;
+        var sCity5;
+        var sCity6;
+
+        //ask for the cities
+        sCity1= prompt("Introduce la primera ciudad"); 
+        sCity2= prompt("Introduce la segunda ciudad");
+        sCity3= prompt("Introduce la tercera ciudad");
+        sCity4= prompt("Introduce la cuarta ciudad");
+        sCity5= prompt("Introduce la quinta ciudad");
+        sCity6= prompt("Introduce la sexta ciudad");
+          
+        //declare the array, convert string to array and fill it
+        var ArrayCiutats1 = [sCity1.split(", ")];
+        var ArrayCiutats2 = [sCity1.split(", ")];
+        var ArrayCiutats3 = [sCity1.split(", ")];
+        var ArrayCiutats4 = [sCity1.split(", ")];
+        var ArrayCiutats5 = [sCity1.split(", ")];
+        var ArrayCiutats6 = [sCity1.split(", ")];
+       ArrayCiutats1 = ArrayCiutats1.push(sCity1.split(", "));
+        /*ArrayCiutats2 = ArrayCiutats2.push(sCity2.split(", "));
+        ArrayCiutats3 = ArrayCiutats3.push(sCity3.split(", "));
+        ArrayCiutats4 = ArrayCiutats4.push(sCity4.split(", "));
+        ArrayCiutats5 = ArrayCiutats5.push(sCity5.split(", "));
+        ArrayCiutats6 = ArrayCiutats6.push(sCity6.split(", "));*/
+             
+        document.write("<p>Vamos a darle la vuelta a los arrays: </p>");
+                       
+        // traverse the array and replace
+        var City1Reverse= ArrayCiutats1.reverse()
+            document.write(City1Reverse + ", ");
+
+        
+       
+    </script>
+
+</body>
+</html>
