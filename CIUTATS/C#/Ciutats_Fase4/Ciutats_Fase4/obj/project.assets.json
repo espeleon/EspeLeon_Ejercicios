@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\LLETRES_REPETIDES\\C#\\Ciutats_Fase4\\Ciutats_Fase4\\Ciutats_Fase4.csproj",
+      "projectUniqueName": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\CIUTATS\\C#\\Ciutats_Fase4\\Ciutats_Fase4\\Ciutats_Fase4.csproj",
       "projectName": "Ciutats_Fase4",
-      "projectPath": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\LLETRES_REPETIDES\\C#\\Ciutats_Fase4\\Ciutats_Fase4\\Ciutats_Fase4.csproj",
+      "projectPath": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\CIUTATS\\C#\\Ciutats_Fase4\\Ciutats_Fase4\\Ciutats_Fase4.csproj",
       "packagesPath": "C:\\Users\\formacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\LLETRES_REPETIDES\\C#\\Ciutats_Fase4\\Ciutats_Fase4\\obj\\",
+      "outputPath": "C:\\Users\\formacio\\Desktop\\EspeLeon_Ejercicios\\CIUTATS\\C#\\Ciutats_Fase4\\Ciutats_Fase4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
