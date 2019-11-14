@@ -37,28 +37,34 @@
         sCity4= prompt("Introduce la cuarta ciudad");
         sCity5= prompt("Introduce la quinta ciudad");
         sCity6= prompt("Introduce la sexta ciudad");
-          
+
+                  
         //declare the array, convert string to array and fill it
-        var ArrayCiutats1 = [sCity1.split(", ")];
-        var ArrayCiutats2 = [sCity1.split(", ")];
-        var ArrayCiutats3 = [sCity1.split(", ")];
-        var ArrayCiutats4 = [sCity1.split(", ")];
-        var ArrayCiutats5 = [sCity1.split(", ")];
-        var ArrayCiutats6 = [sCity1.split(", ")];
-       ArrayCiutats1 = ArrayCiutats1.push(sCity1.split(", "));
-        /*ArrayCiutats2 = ArrayCiutats2.push(sCity2.split(", "));
-        ArrayCiutats3 = ArrayCiutats3.push(sCity3.split(", "));
-        ArrayCiutats4 = ArrayCiutats4.push(sCity4.split(", "));
-        ArrayCiutats5 = ArrayCiutats5.push(sCity5.split(", "));
-        ArrayCiutats6 = ArrayCiutats6.push(sCity6.split(", "));*/
-             
+        var ArrayCiutats1 = sCity1.split("");
+        var ArrayCiutats2 = sCity2.split("");
+        var ArrayCiutats3 = sCity3.split("");
+        var ArrayCiutats4 = sCity4.split("");
+        var ArrayCiutats5 = sCity5.split("");
+        var ArrayCiutats6 = sCity6.split("");
+       
+    
         document.write("<p>Vamos a darle la vuelta a los arrays: </p>");
                        
         // traverse the array and replace
-        var City1Reverse= ArrayCiutats1.reverse()
-            document.write(City1Reverse + ", ");
-
+        var City1Reverse= ArrayCiutats1.reverse();
+        var City2Reverse= ArrayCiutats2.reverse();
+        var City3Reverse= ArrayCiutats3.reverse();
+        var City4Reverse= ArrayCiutats4.reverse();
+        var City5Reverse= ArrayCiutats5.reverse();
+        var City6Reverse= ArrayCiutats6.reverse();
         
+        // print the arrays
+        document.write("<p>Primera ciudad: "+ City1Reverse +"</p>");
+        document.write("<p>Segunda ciudad: "+ City2Reverse +"</p>");
+        document.write("<p>Tercera ciudad: "+ City3Reverse +"</p>");
+        document.write("<p>Cuarta ciudad: "+ City4Reverse  +"</p>");
+        document.write("<p>Quinta ciudad: "+ City5Reverse  +"</p>");
+        document.write("<p>Sexta ciudad: "+ City6Reverse +"</p>");              
        
     </script>
 
