@@ -2,21 +2,19 @@
 <html>
 <body>
 
-<h2>Exercici Cituat Fase 2</h2>
+<h2>Exercici Restaurant: Eat, pray, love......  </h2>
 
-<!--  /*
-             /*
+<!-- 
+             
             FASE 1 (2 punts)
             • Creeu una variable int per cada un dels bitllets que existeixen des de 5€ a 500€, 
             haureu de crear un altre variable per guardar el preu total del menjar. (1 punt)
             • Creeu dos arrays, un on guardarem el menú (5 plats) i un altre on guardarem el preu de cada 
              plat. (1 punt)             
-            */
+            *//
            
 
 -->
-
-<p>Like the song say: Summer in the city ...... </p>
 
 <p id="demo"></p>
 
@@ -30,9 +28,12 @@
         var  iDoscientos = 0;
         var  iQuinientos = 0;
         var  fPreuTotal = 0.00;
-        var plats = new Array();
-        var preu = new Array();
+        var plats = new Array(); // create array for the dishes
+        var preu = new Array(); // create array for the price
         var numPlatos;
+        var platsList = new Array(); //create list for the dishes
+        var preuList = new Array(); // create list for the price
+        var preuTotal= 0.00;
                     
         var  iAnswer = 0;         
         
@@ -40,47 +41,108 @@
         for (let i = 0; i < 5; i++)
         {
             plats[i] = prompt("Introduce un plato: ");
-            preu[i]= prompt("Ahora introduce el precio: ");                                                            
+            preu[i]= parseFloat(prompt("Ahora introduce el precio: "));                                                            
         }
         // show the array of plats
-        document.write("Hoy tenemos para comer ...\n");
-        plats.foreach (valor) // recorremos
+        document.write("<br>Hoy tenemos para comer ...</br>");
+        plats.forEach ((value, key)=> // recorremos
         {
-            document.write("-" +valor + ".\n");
-        }
+            document.write("<br>-" +value + ".</br>");
+        });
 
         // ask how many dishes
         numPlatos = prompt("Cuantos platos vas a pedir?");
         // execute function
         IntroPlatos(numPlatos);
 
+        // ask if want to demand more
+        iAnswer = prompt("Desea introducir algún plato más? Pulsa 1 para SÍ, pulsa 0 para NO");
+
+        // if the answer is yes
+        if (iAnswer == 1)
+        {
+            
+            numPlatos = prompt("Cuántos platos más vas a pedir");
+            document.write("Te recuerdo la lista de platos:" );
+            plats.forEach ((value, key)=> // recorremos
+            {
+                document.write("<br>-" +value + ".</br>");
+            });
+                IntroPlatos(numPlatos);
+                PrintPrices(); 
+           // Console.WriteLine("Bon profit y vigila con la dieta !!!");
+        }
+        else // if the answer is no, print
+        {
+            PrintPrices(); 
+        }
 
 
         // function to add the dishes and price that demand
         function IntroPlatos(numPlatitos)
         {
             var j = 0;
-***************************************************************************************************************
+
             while (j < numPlatos)
             {                
                 elegido = prompt("Introduce el plato nº " +(j+1));
-                if (Array.Exists(plats, element => element == elegido))
+                if (plats.includes(elegido))
                 {
-                    posi = Array.IndexOf(plats, elegido.ToString()) ;
-                    platsList.Add(elegido);
-                    preuList.Add(preu[posi]);                    
+                    posi = plats.indexOf(elegido) ;
+                    platsList.push(elegido);
+                    preuList.push(preu[posi]);                    
                     preuTotal = preuTotal + preu[posi];
                 }
                 else
                 {
-                    Console.WriteLine("El plato elegido no aparece en la lista, inténtalo de nuevo");
+                    document.write("El plato elegido no aparece en la lista, inténtalo de nuevo");
                     ReIntroPlatos(j);
                 }
                 j++;
             }
         }
 
-        
+
+// function to re-add dishes and price that demand
+        function ReIntroPlatos( intent)
+        {
+             
+                elegido = prompt ("<p>Introduce el plato  nº " + (intent + 1)+"</p>" );
+                if (plats.includes(elegido))
+                {
+                    posi = plats.indexOf(elegido) ;
+                    platsList.push(elegido);
+                    preuList.push(preu[posi]);                    
+                    preuTotal = preuTotal + preu[posi];
+                }
+                else
+                {
+                    document.write("El plato elegido no aparece en la lista, fíjate más !!!");
+                   
+                }                     
+        }
+
+        // function to print final list and prices
+        function PrintPrices()
+        {
+            document.write("<p>Has pedido todos estos platos: ");
+
+
+            platsList.forEach ((value, key)=> // recorremos
+            {
+                document.write("<br>-" +value + "</br>");
+            });
+
+            document.write("<br>Los precios de los platos pedidos son: </br>");
+            preuList.forEach ((value, key)=> // recorremos
+            {
+                document.write("<br>-" +value + "</br>");
+            });
+            "</p>"
+
+            document.write("<p>La comilona de hoy te sale por un total de .... <strong>" + preuTotal+ " euros </strong></p>");
+        }
+             
       
 
     </script>
