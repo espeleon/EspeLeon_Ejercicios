@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>Exercici Cituat Fase 2</h2>
+<h2>Exercici Restaurant </h2>
 
 <!--  /*
              /*
@@ -23,18 +23,21 @@
     <script>
 
         var iCinco = 0;
-        var  iDiez = 0;
-        var  iVeinte = 0;
-        var  iCincuenta = 0;
-        var  iCient = 0;
-        var  iDoscientos = 0;
-        var  iQuinientos = 0;
-        var  fPreuTotal = 0.00;
+        var iDiez = 0;
+        var iVeinte = 0;
+        var iCincuenta = 0;
+        var iCient = 0;
+        var iDoscientos = 0;
+        var iQuinientos = 0;
+        var fPreuTotal = 0.00;
         var plats = new Array();
         var preu = new Array();
         var numPlatos;
                     
-        var  iAnswer = 0;         
+        var iAnswer = 0;      
+        var platsList = new Array();
+        var preuList = new Array();
+        var preuTotal;
         
         // add to the arrays the dishes and the prices
         for (let i = 0; i < 5; i++)
@@ -44,36 +47,45 @@
         }
         // show the array of plats
         document.write("Hoy tenemos para comer ...\n");
-        plats.foreach (valor) // recorremos
+
+        document.write( typeof(plats));
+       
+        // recorremos        
+        plats.forEach( function(element, i)
         {
-            document.write("-" +valor + ".\n");
-        }
+            document.write("- " +element );                    
+        });
+
+
+    
 
         // ask how many dishes
         numPlatos = prompt("Cuantos platos vas a pedir?");
         // execute function
         IntroPlatos(numPlatos);
 
-
+      
 
         // function to add the dishes and price that demand
         function IntroPlatos(numPlatitos)
         {
             var j = 0;
-***************************************************************************************************************
+            var posi;
+
             while (j < numPlatos)
             {                
                 elegido = prompt("Introduce el plato nº " +(j+1));
-                if (Array.Exists(plats, element => element == elegido))
+                
+                if (plats.includes( elegido))
                 {
-                    posi = Array.IndexOf(plats, elegido.ToString()) ;
-                    platsList.Add(elegido);
-                    preuList.Add(preu[posi]);                    
+                    posi = plats.indexOf(elegido);                   
+                    platsList.push(elegido);
+                    preuList.push(preu[posi]);                    
                     preuTotal = preuTotal + preu[posi];
                 }
                 else
                 {
-                    Console.WriteLine("El plato elegido no aparece en la lista, inténtalo de nuevo");
+                    document.write("El plato elegido no aparece en la lista, inténtalo de nuevo");
                     ReIntroPlatos(j);
                 }
                 j++;
