@@ -1,0 +1,43 @@
+<div>
+   
+    <h2>Calculator ......</h2>
+    <input id="Num1" type="text" /></br>
+    <input id="Num2" type="text" /></br>
+    
+
+    <input type="button" value="Sum" onclick="Sum()" />
+</div>
+
+<script>
+
+function Sum()
+{
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+
+    var number1 = ToNumber(num1Text);
+    var number2 = ToNumber(num2Text);
+
+    var suma = number1 + number2;
+
+    alert(suma);
+}
+
+function ToNumber(text)
+{
+    text = text.replace(",", ".");
+
+    if(isNaN(text))
+    {
+        var errorMsg = "Esto "+text+" no es un número correcto.";
+        alert(errorMsg);
+        
+    }
+    else
+    {
+        return  text;        
+    }
+}
+
+
+</script>

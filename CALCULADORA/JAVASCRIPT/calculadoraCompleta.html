@@ -1,0 +1,85 @@
+<div>
+    <h2>Calculator ......</h2>
+    <input id="Num1" type="text" /></br>
+    <input id="Num2" type="text" /></br>
+    <p></p>
+    <input type="button" value="Suma" onclick="Sum()" />
+    <input type= "button" value= "Resta" onclick= "Resta()"/>
+    <input type="button" value="Multiplicar" onclick="Multi()" />
+    <input type= "button" value= "Dividir" onclick= "Divi()"/>
+
+</div>
+
+<script>
+
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+    var num1 = GetNumber(num1Text);    
+    var num2 = GetNumber(num2Text);
+
+
+function Sum()
+{   
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+    var num1 = GetNumber(num1Text);    
+    var num2 = GetNumber(num2Text);
+    var suma = num1 + num2;
+
+    alert(suma);
+}
+function Resta()
+{   
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+    var num1 = GetNumber(num1Text);    
+    var num2 = GetNumber(num2Text);
+    var rest = num1 - num2;
+
+    alert(rest);
+}
+function Multi()
+{   
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+    var num1 = GetNumber(num1Text);    
+    var num2 = GetNumber(num2Text);
+    var multiplica = num1 * num2;
+
+    alert(multiplica);
+}
+function Divi()
+{   
+    var num1Text = document.getElementById("Num1").value;
+    var num2Text =  document.getElementById("Num2").value;
+    var num1 = GetNumber(num1Text);    
+    var num2 = GetNumber(num2Text);
+    if (num2 == 0)
+    {
+        alert("No podemos dividir un número por 0");
+    }
+    else
+    {
+        var division = num1 / num2;
+        alert(division);
+    }
+
+}
+
+function GetNumber(text)
+{
+    text = text.replace(",", ".");
+
+    if(isNaN(text))
+    {
+        var msg = "El texto "+text+" tiene un formato de número incorrecto.";
+        alert(msg)
+        throw new Exception(msg);
+    }
+    else
+    {
+        return  text *1;        
+    }
+}
+
+</script>

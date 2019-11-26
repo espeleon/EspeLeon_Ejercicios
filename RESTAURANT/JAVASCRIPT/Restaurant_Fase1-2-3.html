@@ -2,27 +2,30 @@
 <html>
 <body>
 
+<<<<<<< HEAD
 <h2>Exercici Restaurant </h2>
+=======
+<h2>Exercici Restaurant: Eat, pray, love......  </h2>
+>>>>>>> 42fc47d0f1f18132cda35d7d56b7265abcb8cbb9
 
-<!--  /*
-             /*
+<!-- 
+             
             FASE 1 (2 punts)
             • Creeu una variable int per cada un dels bitllets que existeixen des de 5€ a 500€, 
             haureu de crear un altre variable per guardar el preu total del menjar. (1 punt)
             • Creeu dos arrays, un on guardarem el menú (5 plats) i un altre on guardarem el preu de cada 
              plat. (1 punt)             
-            */
+            *//
            
 
 -->
-
-<p>Like the song say: Summer in the city ...... </p>
 
 <p id="demo"></p>
 
     <script>
 
         var iCinco = 0;
+<<<<<<< HEAD
         var iDiez = 0;
         var iVeinte = 0;
         var iCincuenta = 0;
@@ -32,7 +35,21 @@
         var fPreuTotal = 0.00;
         var plats = new Array();
         var preu = new Array();
+=======
+        var  iDiez = 0;
+        var  iVeinte = 0;
+        var  iCincuenta = 0;
+        var  iCient = 0;
+        var  iDoscientos = 0;
+        var  iQuinientos = 0;
+        var  fPreuTotal = 0.00;
+        var plats = new Array(); // create array for the dishes
+        var preu = new Array(); // create array for the price
+>>>>>>> 42fc47d0f1f18132cda35d7d56b7265abcb8cbb9
         var numPlatos;
+        var platsList = new Array(); //create list for the dishes
+        var preuList = new Array(); // create list for the price
+        var preuTotal= 0.00;
                     
         var iAnswer = 0;      
         var platsList = new Array();
@@ -43,9 +60,10 @@
         for (let i = 0; i < 5; i++)
         {
             plats[i] = prompt("Introduce un plato: ");
-            preu[i]= prompt("Ahora introduce el precio: ");                                                            
+            preu[i]= parseFloat(prompt("Ahora introduce el precio: "));                                                            
         }
         // show the array of plats
+<<<<<<< HEAD
         document.write("Hoy tenemos para comer ...\n");
 
         document.write( typeof(plats));
@@ -58,27 +76,68 @@
 
 
     
+=======
+        document.write("<br>Hoy tenemos para comer ...</br>");
+        plats.forEach ((value, key)=> // recorremos
+        {
+            document.write("<br>-" +value + ".</br>");
+        });
+>>>>>>> 42fc47d0f1f18132cda35d7d56b7265abcb8cbb9
 
         // ask how many dishes
         numPlatos = prompt("Cuantos platos vas a pedir?");
         // execute function
         IntroPlatos(numPlatos);
 
+<<<<<<< HEAD
       
+=======
+        // ask if want to demand more
+        iAnswer = prompt("Desea introducir algún plato más? Pulsa 1 para SÍ, pulsa 0 para NO");
+
+        // if the answer is yes
+        if (iAnswer == 1)
+        {
+            
+            numPlatos = prompt("Cuántos platos más vas a pedir");
+            document.write("Te recuerdo la lista de platos:" );
+            plats.forEach ((value, key)=> // recorremos
+            {
+                document.write("<br>-" +value + ".</br>");
+            });
+                IntroPlatos(numPlatos);
+                PrintPrices(); 
+           // Console.WriteLine("Bon profit y vigila con la dieta !!!");
+        }
+        else // if the answer is no, print
+        {
+            PrintPrices(); 
+        }
+
+>>>>>>> 42fc47d0f1f18132cda35d7d56b7265abcb8cbb9
 
         // function to add the dishes and price that demand
         function IntroPlatos(numPlatitos)
         {
             var j = 0;
+<<<<<<< HEAD
             var posi;
+=======
+>>>>>>> 42fc47d0f1f18132cda35d7d56b7265abcb8cbb9
 
             while (j < numPlatos)
             {                
                 elegido = prompt("Introduce el plato nº " +(j+1));
+<<<<<<< HEAD
                 
                 if (plats.includes( elegido))
                 {
                     posi = plats.indexOf(elegido);                   
+=======
+                if (plats.includes(elegido))
+                {
+                    posi = plats.indexOf(elegido) ;
+>>>>>>> 42fc47d0f1f18132cda35d7d56b7265abcb8cbb9
                     platsList.push(elegido);
                     preuList.push(preu[posi]);                    
                     preuTotal = preuTotal + preu[posi];
@@ -92,7 +151,47 @@
             }
         }
 
-        
+
+// function to re-add dishes and price that demand
+        function ReIntroPlatos( intent)
+        {
+             
+                elegido = prompt ("<p>Introduce el plato  nº " + (intent + 1)+"</p>" );
+                if (plats.includes(elegido))
+                {
+                    posi = plats.indexOf(elegido) ;
+                    platsList.push(elegido);
+                    preuList.push(preu[posi]);                    
+                    preuTotal = preuTotal + preu[posi];
+                }
+                else
+                {
+                    document.write("El plato elegido no aparece en la lista, fíjate más !!!");
+                   
+                }                     
+        }
+
+        // function to print final list and prices
+        function PrintPrices()
+        {
+            document.write("<p>Has pedido todos estos platos: ");
+
+
+            platsList.forEach ((value, key)=> // recorremos
+            {
+                document.write("<br>-" +value + "</br>");
+            });
+
+            document.write("<br>Los precios de los platos pedidos son: </br>");
+            preuList.forEach ((value, key)=> // recorremos
+            {
+                document.write("<br>-" +value + "</br>");
+            });
+            "</p>"
+
+            document.write("<p>La comilona de hoy te sale por un total de .... <strong>" + preuTotal+ " euros </strong></p>");
+        }
+             
       
 
     </script>

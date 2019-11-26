@@ -94,6 +94,7 @@ namespace Restaurant_Fase1_2_3
                         Console.Write("-" + str + ".\n");
                     }
                     IntroPlatos(numPlatos);
+                    PrintPrices(); 
                    // Console.WriteLine("Bon profit y vigila con la dieta !!!");
                 }
                 else // if the answer is no, print
