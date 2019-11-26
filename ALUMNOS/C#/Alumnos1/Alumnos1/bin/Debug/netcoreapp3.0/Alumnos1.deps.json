@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Alumnos1/1.0.0": {
+        "runtime": {
+          "Alumnos1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alumnos1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
