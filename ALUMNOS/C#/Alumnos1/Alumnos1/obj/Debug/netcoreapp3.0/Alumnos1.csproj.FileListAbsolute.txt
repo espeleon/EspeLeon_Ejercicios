@@ -1,0 +1,11 @@
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\bin\Debug\netcoreapp3.0\Alumnos1.exe
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\bin\Debug\netcoreapp3.0\Alumnos1.deps.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\bin\Debug\netcoreapp3.0\Alumnos1.runtimeconfig.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\bin\Debug\netcoreapp3.0\Alumnos1.runtimeconfig.dev.json
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\bin\Debug\netcoreapp3.0\Alumnos1.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\bin\Debug\netcoreapp3.0\Alumnos1.pdb
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\obj\Debug\netcoreapp3.0\Alumnos1.csprojAssemblyReference.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\obj\Debug\netcoreapp3.0\Alumnos1.AssemblyInfoInputs.cache
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\obj\Debug\netcoreapp3.0\Alumnos1.AssemblyInfo.cs
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\obj\Debug\netcoreapp3.0\Alumnos1.dll
+C:\Users\formacio\Desktop\EspeLeon_Ejercicios\ALUMNOS\C#\Alumnos1\Alumnos1\obj\Debug\netcoreapp3.0\Alumnos1.pdb
