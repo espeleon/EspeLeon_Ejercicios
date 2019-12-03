@@ -6,6 +6,22 @@ namespace Restaurant_Fase1_2_3
 {
     class Program
     {
+        /*
+           FASE 1 (2 punts)
+           • Creeu una variable int per cada un dels bitllets que existeixen des de 5€ a 500€, 
+           haureu de crear un altre variable per guardar el preu total del menjar. (1 punt)
+           • Creeu dos arrays, un on guardarem el menú (5 plats) i un altre on guardarem el preu de cada 
+            plat. (1 punt)             
+           */
+
+
+        static int iCinco = 0;
+        static int iDiez = 0;
+        static int iVeinte = 0;
+        static int iCincuenta = 0;
+        static int iCient = 0;
+        static int iDoscientos = 0;
+        static int iQuinientos = 0;
 
         static string elegido = "";
         static string[] plats = new string[5];
@@ -17,27 +33,11 @@ namespace Restaurant_Fase1_2_3
         static float preuTotal= 0.00f;
         static string validaFloat = "";
         static float isFloat = 0.00f;
+        static int resto = 0;
 
         static void Main(string[] args)
         {
-            /*
-            FASE 1 (2 punts)
-            • Creeu una variable int per cada un dels bitllets que existeixen des de 5€ a 500€, 
-            haureu de crear un altre variable per guardar el preu total del menjar. (1 punt)
-            • Creeu dos arrays, un on guardarem el menú (5 plats) i un altre on guardarem el preu de cada 
-             plat. (1 punt)             
-            */
-
-
-            int iCinco = 0;
-            int iDiez = 0;
-            int iVeinte = 0;
-            int iCincuenta = 0;
-            int iCient = 0;
-            int iDoscientos = 0;
-            int iQuinientos = 0;
-            float fPreuTotal = 0.00f;
-                        
+                                   
             int iAnswer = 0;
 
 
@@ -198,6 +198,39 @@ namespace Restaurant_Fase1_2_3
                 VerificaPrecio(validaFloat);
             }
             return precioOk;
+        }
+        public static void ConCuantoPago(float preuTotal)
+        {
+
+            while (resto != 0)
+            {
+                if ((preuTotal - 500) > 0)
+                {
+                    iQuinientos++;
+                    resto = Convert.ToInt16(preuTotal) - 500;
+
+                    if ((resto - 500) > 0)
+                    {
+                        iQuinientos++;
+                        resto = resto - 500;
+                    }
+                }
+
+
+                if ((preuTotal - 200) > 0 || resto!=0)
+                {
+                    iDoscientos++;
+                    resto = Convert.ToInt16(preuTotal) - 200;
+
+                    if ((resto - 200) > 0)
+                    {
+                        iDoscientos++;
+                        resto = resto - 200;
+                    }
+                }
+
+            }
+
         }
 
     }
